@@ -1,0 +1,32 @@
+body{
+    background-color: #e7d8c9;
+    color: #b2967d;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px; 
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.dark{
+    background-color: #003049;
+    color: #e9edc9;
+}
+.darkBtn{
+    background-color: #f6f6ee;
+    color: #6e5c87;
+}
+
+#toggle-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #69585f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;    
+}
